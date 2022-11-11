@@ -15,5 +15,7 @@ function cleanUpPhoneNumber(phoneNumber) {
             .replaceAll(" ", "")
             .replaceAll("-", "")
             .replaceAll(".", "")
-            .replaceAll("+", "");
+            .replaceAll("+55", "")
+            .replaceAll("(", "")
+            .replaceAll(")", "");
 }
